@@ -152,8 +152,6 @@ nav .bx{
   left:50%;
   transform: translate(-50% , -50%);
   width: auto;
-
-  /* padding: 8px;  */
   padding-bottom: 10px; 
   outline: none !important;
 }
@@ -203,8 +201,7 @@ nav .bx{
 .welcome-data{
   /* padding-left: 30%; */
   width: fit-content;
-  margin-bottom: -30PX;
- 
+  margin-bottom: -30PX; 
 }
 .welcome-maindata{
   text-align: center;
@@ -269,8 +266,11 @@ nav .bx{
   border: 1px solid;
   border-color: rgba(206, 202, 202, 0.609);
   margin: 10px;
-  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.2), 0 2px 3px 0 rgba(0,0,0,0.19);
-  
+  /* box-shadow: 0 1px 0px 0 rgba(0,0,0,0.2), 0 0px 0px 0 rgba(0,0,0,0.19); */
+  border-radius: 6px;
+}
+.main-post-title{
+  padding-top: 15px;
 }
 
 .story-img {
