@@ -886,9 +886,9 @@ float: right;
   padding-bottom: 10px;
   border-radius: 5px;
 }
-.post-dp{
-  box-shadow: 5px 8px 10px 5px rgba(0,0,0,0.2));
-}
+/* .post-dp{
+  box-shadow: 2px 3px 3px 2px rgba(0,0,0,0.2);
+} */
 .post-word h3{
   text-align: justify;
   color: #1f2760;
@@ -978,7 +978,7 @@ float: right;
   /* height: 33rem; */
   color: #000 !important;
   background: rgba(230, 216, 216, 0.493) !important;
-  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.2), 0 2px 3px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 0px 1px 0 rgb(0 0 0 / 5%), 0 2px 5px 0 rgb(0 0 0 / 5%);
 }
 .card-group{
   padding-bottom: 14px;
@@ -1042,16 +1042,16 @@ float: right;
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 ul>li {
-  padding: 4px
+  padding: 3px;
 }
 
 ul>li:hover {
   color: #957bda;
-  cursor: pointer
+  cursor: pointer;
 }
 
 
@@ -1095,7 +1095,7 @@ ul>li:hover {
 }
 
 .policy>div {
-  padding: 4px
+  padding: 4px;
 }
 
 .heading {
