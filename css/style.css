@@ -451,13 +451,8 @@ button.primary:hover {
   display: block;
   
 }
-.post-body{
- /* border: solid;
- padding: 5px; */
 
-}
 .populer-post{
-
   margin-top: 3rem;
   position: relative;
  
@@ -585,9 +580,7 @@ margin-bottom: 30px;
     float: right;
     display: flex;   
     }
-  .previous-number{
-
-  }
+  
   .previous-left {
     display: inline-block;
     padding: 5px 10px;
