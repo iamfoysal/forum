@@ -165,9 +165,10 @@ hr{
     width: 80%;
 }
 .or{
-    background:  rgb(247, 235, 235);
+    background:  rgba(230, 226, 226, 0.685);
     width: 30px;
-    margin: -15px auto 15px ;
+    margin: -12px auto 15px ;
+    font-size: 15px;
 }
 img{
     width: 70px;
