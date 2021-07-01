@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/boxicons.min.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Potato Forum</title>
+</head>
+<body >
+  <section class="header">
+    <nav>
+        <a href="./index.html"><img src="#" > </a>
+        <div class="nav-links" id="navlinks">
+            <i class="bx bx-transfer " onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="./index.html">Home</a></li>                   
+              <li><a href="./post.html">Create Post</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+              <li><a href="./profile.html">Profile</a></li>
+               <a class="btn btn-primary btn-log-in" href="./sing_in.html">Login</a>
+            </ul>
+            <div class="input-group search-box">
+              <input type="text" class="shadow-none form-control"  placeholder="Search here" aria-label="Recipient's username">
+              <div class="input-group-append">
+                <span class="input-group-text search-btn"><i class='bxx bx-search-alt-2'></i></span>
+              </div>
+            </div>
+        </div>
+        <i class="bx bx-menu-alt-right" onclick="showMenu()"></i>
+    </nav>
+      
+</section>
+
+<section class="main-body">
+  <!--============================Down-to-Up-btn--start ==================================-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='bx bx-chevrons-up'></i></button>
+  <!--============================Down-to-Up-btn--end ==================================-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="welcome-data">
+            <p class="welcome-maindata"><span style="color: #f44336;"><i class='bx bx-book-reader'></i>Blog</span> </p>
+          </div>
+        </div>  
+      </div>
+    </div>
+ <!-- ================MAIN PAGE BLOG================== -->
+    <!-- ================POST 1&2 Start ================== -->
+  <div class="container">
+    
+     <div class="row">
+        <div class="col-md-4 post-body">
+          <h3>Network Lorem ipsum dolor sit amet </h3>
+            <div class="user-post-time"> 
+              <a class="user-tag" href=""><i class='bx bx-user' ></i>Takdirul Islam Sishir </a> 
+              <time class="post-time"> <i class='bx bx-time' ></i>  June 16, 2021</time>
+            </div>
+          <div class="blog-post-section">
+            <img class="blog-post-img" src="./img/windows-11.jpg" alt="">
+              <div class="blog-post-data">
+                <a href="./post-details.html" class="post-link" style="text-decoration: none;"> <i class='bx bx-link-alt'></i></a>
+                <span class="baner-title">network</span>
+              </div>    
+          </div>
+            <p style="text-align: justify; padding: 6px;" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis perspiciatis facilis rem repellat quas incidunt tempora reprehenderit eveniet culpa, quis deserunt nisi, blanditiis temporibus delectus, eos amet autem? Deleniti!</p>
+            <p class="lead"><button class="btn btn-default"><a href="./post-details.html">Read More</a></button></p>
+       </div>
+        
+        <div class="col-md-4 shadow-lg post-body">
+            <h3>PHP Lorem ipsum dolor sit amet </h3>
+            <div class="user-post-time"> 
+              <a class="user-tag" href=""><i class='bx bx-user' ></i>Takdirul Islam Sishir </a> 
+              <time class="post-time"> <i class='bx bx-time' ></i>  June 16, 2021</time>
+            </div>
+            <div class="blog-post-section">
+              <img class="blog-post-img" src="./img/JavaScript.jpg" alt="">
+                <div class="blog-post-data">
+                  <a href="./post-details.html" class="post-link" style="text-decoration: none;"> <i class='bx bx-link-alt'></i></a>
+                  <span class="baner-title">network</span>
+                </div>    
+            </div> 
+            <p style="text-align: justify; padding: 6px;" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis perspiciatis facilis rem repellat quas incidunt tempora reprehenderit eveniet culpa, quis deserunt nisi, blanditiis temporibus delectus, eos amet autem? Deleniti!</p>
+            <p class="lead"><button class="btn btn-default"><a href="./post-details.html">Read More</a></button></p>   
+          </div>  
+        <!-- ==================== card right side start=============== -->
+
+        <!-- <div class="col-md-1 col-sm-1 col-xs-1 mb-1"></div> -->
+        <div class="col-md populer-post-body">
+           <h4 class="populer-post" >Populer Post</h4>
+             <hr class="hr-custom">
+               <div  class="small-post-card">
+                 <a href=""><img class="populer-card-img" src="./img/django.jpg" alt="Django"></a> 
+                  <div class="small-post-card-body">
+                    <a href="" style="text-decoration: none;">  <p class="populer-card-title"> Post Title</p></a>
+                    <p class="card-dis">Lorem, ipsum Lorem ipsum Lorem  </p>
+                    <time class="card-post-time"> <i class='bx bx-time' ></i>  June 16, 2021</time> 
+                  </div>  
+               </div>
+               <div  class="small-post-card">
+                  <a href=""><img class="populer-card-img" src="./img/database.png" alt="database"></a> 
+                    <div class="small-post-card-body">
+                      <a href="" style="text-decoration: none;">  <p class="populer-card-title"> Post Title </p></a>
+                      <p class="card-dis">Lorem, ipsum Lorem ipsum Lorem   </p>
+                      <time class="card-post-time"> <i class='bx bx-time' ></i>  June 16, 2021</time> 
+                    </div>  
+                </div>
+                <div  class="small-post-card">
+                  <a href=""><img class="populer-card-img" src="./img/JavaScript.jpg" alt="javaScript"></a> 
+                    <div class="small-post-card-body">
+                      <a href="" style="text-decoration: none;">  <p class="populer-card-title"> Post Title</p></a>
+                      <p class="card-dis">Lorem, ipsum Lorem ipsum Lorem</p>
+                      <time class="card-post-time"> <i class='bx bx-time' ></i>  June 16, 2021</time> 
+                    </div>  
+                </div>
+                <div  class="small-post-card">
+                  <a href=""><img class="populer-card-img" src="./img/php.jpg" alt="php"></a> 
+                    <div class="small-post-card-body">
+                      <a href="" style="text-decoration: none;">  <p class="populer-card-title"> Post Title</p></a>
+                      <p class="card-dis">Lorem, ipsum Lorem ipsum Lorem</p>
+                      <time class="card-post-time"> <i class='bx bx-time' ></i>  June 16, 2021</time> 
+                    </div>  
+                </div>     
+                <div  class="small-post-card">
+                  <a href=""><img class="populer-card-img" src="./img/networking.jpg" alt="networking"></a> 
+                    <div class="small-post-card-body">
+                      <a href="" style="text-decoration: none;"> <p class="populer-card-title"> Post Title</p></a>
+                      <p class="card-dis">Lorem, ipsum Lorem ipsum Lorem</p>
+                      <time class="card-post-time"> <i class='bx bx-time' ></i>  June 16, 2021</time> 
+                    </div>  
+                </div>       
+          </div>  <!-- ======================= card right side end ===========================-->                         
+     </div>  <!-- ================POST 1&2 End ================== -->
+    <!-- ================POST 3&4 Start ================== -->
+     <div class="row">
+      <div class="col-md-4 post-body">
+        <h3>Network Lorem ipsum dolor sit amet </h3>
+          <div class="user-post-time"> 
+            <a class="user-tag" href=""><i class='bx bx-user' ></i>Takdirul Islam Sishir </a> 
+            <time class="post-time"> <i class='bx bx-time' ></i>  June 16, 2021</time>
+          </div>
+        <div class="blog-post-section">
+          <img class="blog-post-img" src="./img/php.jpg" alt="">
+            <div class="blog-post-data">
+              <a href="./post-details.html" class="post-link" style="text-decoration: none;"> <i class='bx bx-link-alt'></i></a>
+              <span class="baner-title">network</span>
+            </div>    
+        </div>
+          <p style="text-align: justify; padding: 6px;" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis perspiciatis facilis rem repellat quas incidunt tempora reprehenderit eveniet culpa, quis deserunt nisi, blanditiis temporibus delectus, eos amet autem? Deleniti!</p>
+          <p class="lead"><button class="btn btn-default"><a href="./post-details.html">Read More</a></button></p>
+     </div>
+      
+      <div class="col-md-4 shadow-lg post-body">
+          <h3>PHP Lorem ipsum dolor sit amet </h3>
+          <div class="user-post-time"> 
+            <a class="user-tag" href=""><i class='bx bx-user' ></i>Takdirul Islam Sishir </a> 
+            <time class="post-time"> <i class='bx bx-time' ></i>  June 16, 2021</time>
+          </div>
+          <div class="blog-post-section">
+            <img class="blog-post-img" src="./img/django.jpg" alt="django">
+              <div class="blog-post-data">
+                <a href="./post-details.html" class="post-link" style="text-decoration: none;"> <i class='bx bx-link-alt'></i></a>
+                <span class="baner-title">network</span>
+              </div>    
+          </div> 
+          <p style="text-align: justify; padding: 6px;" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis perspiciatis facilis rem repellat quas incidunt tempora reprehenderit eveniet culpa, quis deserunt nisi, blanditiis temporibus delectus, eos amet autem? Deleniti!</p>
+          <p class="lead"><button class="btn btn-default"><a href="./post-details.html">Read More</a></button></p>   
+        </div>      
+      <!-- ==================== Categories Start======================= -->
+      <div class="col-md populer-post-body">
+        <h4 class="populer-post" >Categories</h4>
+        <hr class="hr-custom">
+          <div class="small-post-card">
+            <ul>
+              <li class="catagory-items"><i class='bx bxs-chevron-right'></i> Technology</li>
+              <li class="catagory-items"> <i class='bx bxs-chevron-right'></i> Buisness</li>
+              <li class="catagory-items"> <i class='bx bxs-chevron-right'></i> Android</li>
+              <li class="catagory-items"> <i class='bx bxs-chevron-right'></i> Programing</li>
+              <li class="catagory-items"> <i class='bx bxs-chevron-right'></i> Database</li>
+              <li class="catagory-items"> <i class='bx bxs-chevron-right'></i> Ui/UX</li>
+              <li class="catagory-items"> <i class='bx bxs-chevron-right'></i> WordPass</li>
+              <li class="catagory-items"> <i class='bx bxs-chevron-right'></i> Devolopment</li>
+              <li class="catagory-items"> <i class='bx bxs-chevron-right'></i> Git & GitHub</li>
+              <li class="catagory-items"> <i class='bx bxs-chevron-right'></i> Windows</li>
+              <li class="catagory-items"> <i class='bx bxs-chevron-right'></i> blogger</li>  
+            </ul>
+          </div>
+        </div> <!-- ==================== Categories End======================= -->                        
+   </div> <!-- ================POST 3&4 End ================== -->
+       <!-- ================POST 5&6 Start ================== -->
+       <div class="row">
+        <div class="col-md-4 post-body">
+          <h3>Network Lorem ipsum dolor sit amet</h3>
+            <div class="user-post-time"> 
+              <a class="user-tag" href=""><i class='bx bx-user' ></i>Takdirul Islam Sishir </a> 
+              <time class="post-time"> <i class='bx bx-time' ></i>  June 16, 2021</time>
+            </div>
+          <div class="blog-post-section">
+            <img class="blog-post-img" src="./img/android.jpg" alt="">
+              <div class="blog-post-data">
+                <a href="./post-details.html" class="post-link" style="text-decoration: none;"> <i class='bx bx-link-alt'></i></a>
+                <span class="baner-title">network</span>
+              </div>    
+          </div>
+            <p style="text-align: justify; padding: 6px;" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis perspiciatis facilis rem repellat quas incidunt tempora reprehenderit eveniet culpa, quis deserunt nisi, blanditiis temporibus delectus, eos amet autem? Deleniti!</p>
+            <p class="lead"><button class="btn btn-default"><a href="./post-details.html">Read More</a></button></p>
+       </div>
+        
+        <div class="col-md-4 shadow-lg post-body">
+            <h3>PHP Lorem ipsum dolor sit amet </h3>
+            <div class="user-post-time"> 
+              <a class="user-tag" href=""><i class='bx bx-user' ></i>Takdirul Islam Sishir </a> 
+              <time class="post-time"> <i class='bx bx-time' ></i>  June 16, 2021</time>
+            </div>
+            <div class="blog-post-section">
+              <img class="blog-post-img" src="./img/robot.jpg" alt="">
+                <div class="blog-post-data">
+                  <a href="./post-details.html" class="post-link" style="text-decoration: none;"> <i class='bx bx-link-alt'></i></a>
+                  <span class="baner-title">network</span>
+                </div>    
+            </div> 
+            <p style="text-align: justify; padding: 6px;" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis perspiciatis facilis rem repellat quas incidunt tempora reprehenderit eveniet culpa, quis deserunt nisi, blanditiis temporibus delectus, eos amet autem? Deleniti!</p>
+            <p class="lead"><button class="btn btn-default"><a href="./post-details.html">Read More</a></button></p>   
+          </div>                       
+     </div><!-- ================POST 5&6 End ================== -->
+      <!-- ================POST 7&8 Start ================== -->
+      <div class="row">
+        <div class="col-md-4 post-body">
+          <h3>Network Lorem ipsum dolor sit amet</h3>
+            <div class="user-post-time"> 
+              <a class="user-tag" href=""><i class='bx bx-user' ></i>Takdirul Islam Sishir </a> 
+              <time class="post-time"> <i class='bx bx-time' ></i>  June 16, 2021</time>
+            </div>
+          <div class="blog-post-section">
+            <img class="blog-post-img" src="./img//github.png" alt="">
+              <div class="blog-post-data">
+                <a href="./post-details.html" class="post-link" style="text-decoration: none;"> <i class='bx bx-link-alt'></i></a>
+                <span class="baner-title">network</span>
+              </div>    
+          </div>
+            <p style="text-align: justify; padding: 6px;" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis perspiciatis facilis rem repellat quas incidunt tempora reprehenderit eveniet culpa, quis deserunt nisi, blanditiis temporibus delectus, eos amet autem? Deleniti!</p>
+            <p class="lead"><button class="btn btn-default"><a href="./post-details.html">Read More</a></button></p>
+       </div>
+        
+        <div class="col-md-4 shadow-lg post-body">
+            <h3>PHP Lorem ipsum dolor sit amet </h3>
+            <div class="user-post-time"> 
+              <a class="user-tag" href=""><i class='bx bx-user' ></i>Takdirul Islam Sishir </a> 
+              <time class="post-time"> <i class='bx bx-time' ></i>  June 16, 2021</time>
+            </div>
+            <div class="blog-post-section">
+              <img class="blog-post-img" src="./img/christian.jpg" alt="">
+                <div class="blog-post-data">
+                  <a href="./post-details.html" class="post-link" style="text-decoration: none;"> <i class='bx bx-link-alt'></i></a>
+                  <span class="baner-title">network</span>
+                </div>    
+            </div> 
+            <p style="text-align: justify; padding: 6px;" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis perspiciatis facilis rem repellat quas incidunt tempora reprehenderit eveniet culpa, quis deserunt nisi, blanditiis temporibus delectus, eos amet autem? Deleniti!</p>
+            <p class="lead"><button class="btn btn-default"><a href="./post-details.html">Read More</a></button></p>   
+          </div>                       
+     </div><!-- ================POST 7&8 End ================== -->
+       <!-- ===========next-page btn Start============ -->
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12">
+          <div class=" previous-next">
+            <a href="#" class=" previous-left previous">&laquo; Previous</a>
+            <a class=" previous-number" href="">1</a>
+            <a class=" previous-number" href="">2</a>
+            <a class=" previous-number" href="">3</a>
+            <a href="#" class="previous-left next">Next &raquo;</a>
+          </div>
+        </div>
+        </div>
+      </div><!-- ===========next-page btn End============ -->
+</section> 
+     
+<!-- ===========================Footer Start============================ -->
+<div class="card mx-12">
+  <div class="row mb-4 ">
+      <div class="col-md-4 col-sm-11 col-xs-11">
+          <div class="footer-text pull-left">
+              <div class="d-flex">
+                  <h1 class="font-weight-bold mr-2 px-3" style="color:#16151a; background-color:#c6c0d6"> Fotato </h1>
+                  <h1  style="color:  #f44336">Forum</h1>
+              </div>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore tempore itaque, hic dicta eveniet tenetur minima illum accusamus, magni laboriosam ipsum molestias deleniti dolor, aut quibusdam soluta. Labore, id dignissimos! Quas ea, Ex, nihil!.</p>
+              <div class="social mt-2 mb-3">
+                <a  class="footer-link" href="#"><i class='bx bxl-facebook' ></i></a>
+                 <a class="footer-link"  href=""><i class='bx bxl-instagram'></i> </a>
+                 <a class="footer-link" href=""><i class='bx bxl-twitter' ></i> </a>
+                 <a class="footer-link" href=""><i class='bx bxl-linkedin-square'></i></a>
+                <a  class="footer-link" href=""><i class='bx bxl-github' ></i> </a>
+                </div>
+          </div>
+      </div>
+      <div class="col-md-2 col-sm-1 col-xs-1 mb-2"></div>
+      <div class="col-md-2 col-sm-4 col-xs-4">
+          <h5 class="heading">Services</h5>
+          <ul>
+              <li>PotatoSquad</li>
+              <li>PotatoSquad</li>
+              <li>PotatoSquad</li>
+              <li>PotatoSquad</li>
+          </ul>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-4">
+          <h5 class="heading">Industries</h5>
+          <ul class="card-text">
+              <li>Alu Alu Alu </li>
+              <li>Alu Alu Alu </li>
+              <li>Alu Alu Alu </li>
+              <li>Alu Alu Alu </li>
+          </ul>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-4">
+          <h5 class="heading">For Youy</h5>
+          <ul class="card-text">
+             <a class="card-text-link" href="./post.html"> <li>Creat Post</li></a>
+             <a class="card-text-link" href="./index.html"> <li>Blog</li></a>
+             <a class="card-text-link" href="./contact.html"> <li>Contact</li></a>
+             <a class="card-text-link" href="./sing_up.html"> <li>Join Us</li></a>
+          </ul>
+      </div>
+  </div>
+
+  <div class="divider mb-4"></div>
+
+  <div class="row" style="font-size:10px;">
+      <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="pull-left">
+              <p>Copyright<i class='bx bx-copyright'></i> 2021 All rights reserved | This template is made by <a href="https://potatosquad.dev/" style="text-decoration: none;">PotatoSquad.dev</a> </p>
+          </div>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="pull-right mr-4 d-flex policy">
+              <div>Terms of Use</div>
+              <div>Privacy Policy</div>
+              <div>Cookie Policy</div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- ===========================Footer End============================ -->
+
+
+
+
+     <!-- java-script start-->
+     <script src="./js/jquery-1.12.4.min.js"></script>
+     <script src="./js/popper.min.js"></script>
+     <script src="./js/bootstrap.min.js"></script>
+     <script src="./js/js.js"></script>
+     <!-- java-script end -->
+
+    
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/boxicons.min.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Potato Forum</title>
+</head>
+<body>
+    <section class="header">
+      <nav>
+        <a href="./index.html"><img src="#" > </a>
+        <div class="nav-links" id="navlinks">
+         
+            <i class="bx bx-transfer " onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="./index.html">Home</a></li>                   
+              <li><a href="./post.html">Create Post</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+              <li><a href="./profile.html">Profile</a></li>
+              <a class="btn btn-primary btn-log-in" href="./sing_in.html">Login</a>
+            </ul>
+            <div class="input-group search-box">
+              <input type="text" class="form-control" placeholder="Search here" aria-label="Recipient's username">
+              <div class="input-group-append">
+                <span class="input-group-text search-btn"><i  class='bxx bx-search-alt-2'></i></span>
+              </div>
+            </div>
+        </div>
+        <i class="bx bx-menu-alt-right" onclick="showMenu()"></i>
+    </nav>
+    </section>
+
+<section class="log-body">
+        <div class="glass">  
+            <div class="sing-up-form">
+                <!-- <img src="./img/profile.png"> -->
+                <h1 style="font-size: 18px;">Welcome To Potato Forum</h1>
+                <h6 style="font-size: 13px;">Create your account to continue</h6>
+                    <form >
+                        <input type="name" class="input-box" placeholder="First Name">
+                        <input type="name" class="input-box" placeholder="Last Name">
+                        <input type="email" class="input-box" placeholder="Email">
+                        <input type="number" class="input-box" placeholder="Number">
+                        <input type="password" class="input-box" placeholder="Password">
+                        <p class="agree"> <samp> <input type="checkbox"></samp> I agree to the terms of services</p>
+                        <button type="button" class="facebook-btn"> Sing Up </button>
+                        <hr>
+                        <p class="or" >or</p>
+                            <a href="https://www.facebook.com/" class="btn with-social"> <span  class="fb-google-login"> <i class=' fa-facebook bx bxl-facebook-circle'></i>  Facebook</span></a>
+                            <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="btn with-social"><span class="fb-google-login"> <i class="bx bxl-google fa-google"> </i> Google</span></a>    
+                        <p class="agree">Already have an account? <a href="./sing_in.html">login hare</a></p>
+                    </form>
+            </div>   
+        </div>
+</section>
+      <!-- ===========================Footer Start============================ -->
+<div class="card mx-12">
+  <div class="row mb-4 ">
+      <div class="col-md-4 col-sm-11 col-xs-11">
+          <div class="footer-text pull-left">
+              <div class="d-flex">
+                  <h1 class="font-weight-bold mr-2 px-3" style="color:#16151a; background-color:#c6c0d6"> Fotato </h1>
+                  <h1  style="color:  #f44336">Forum</h1>
+              </div>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore tempore itaque, hic dicta eveniet tenetur minima illum accusamus, magni laboriosam ipsum molestias deleniti dolor, aut quibusdam soluta. Labore, id dignissimos! Quas ea, Ex, nihil!.</p>
+              <div class="social mt-2 mb-3">
+                <a  class="footer-link" href="#"><i class='bx bxl-facebook' ></i></a>
+                 <a class="footer-link"  href=""><i class='bx bxl-instagram'></i> </a>
+                 <a class="footer-link" href=""><i class='bx bxl-twitter' ></i> </a>
+                 <a class="footer-link" href=""><i class='bx bxl-linkedin-square'></i></a>
+                <a  class="footer-link" href=""><i class='bx bxl-github' ></i> </a>
+                </div>
+          </div>
+      </div>
+      <div class="col-md-2 col-sm-1 col-xs-1 mb-2"></div>
+      <div class="col-md-2 col-sm-4 col-xs-4">
+          <h5 class="heading">Services</h5>
+          <ul>
+              <li>PotatoSquad</li>
+              <li>PotatoSquad</li>
+              <li>PotatoSquad</li>
+              <li>PotatoSquad</li>
+          </ul>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-4">
+          <h5 class="heading">Industries</h5>
+          <ul class="card-text">
+              <li>Alu Alu Alu </li>
+              <li>Alu Alu Alu </li>
+              <li>Alu Alu Alu </li>
+              <li>Alu Alu Alu </li>
+          </ul>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-4">
+          <h5 class="heading">For You</h5>
+          <ul class="card-text">
+             <a class="card-text-link" href="./post.html"> <li>Creat Post</li></a>
+             <a class="card-text-link" href="./index.html"> <li>Blog</li></a>
+             <a class="card-text-link" href="./contact.html"> <li>Contact</li></a>
+             <a class="card-text-link" href="./sing_up.html"> <li>Join Us</li></a>
+          </ul>
+      </div>
+  </div>
+
+  <div class="divider mb-4"></div>
+
+  <div class="row" style="font-size:10px;">
+      <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="pull-left">
+              <p>Copyright<i class='bx bx-copyright'></i> 2021 All rights reserved | This template is made by <a href="https://potatosquad.dev/" style="text-decoration: none;">PotatoSquad.dev</a> </p>
+          </div>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="pull-right mr-4 d-flex policy">
+              <div>Terms of Use</div>
+              <div>Privacy Policy</div>
+              <div>Cookie Policy</div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- ===========================Footer End============================ -->
+    <!-- java-script start-->
+   <script src="./js/js.js"></script>
+   <!-- java-script end -->
+    
+</body>
+</html>
