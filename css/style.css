@@ -1041,6 +1041,21 @@ float: right;
 
 }
 }
+/* =================================scrollbar start============================= */
+::-webkit-scrollbar{
+  width: .60rem ;
+  background-color: #a5979771;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #c0bdbd;
+  border-radius: 5px;
+  
+}
+
+/* =================================scrollbar start============================= */
+
+
 /* ==========================================Related Post End================================== */
 
 
