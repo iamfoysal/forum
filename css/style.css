@@ -57,11 +57,14 @@ nav .bx{
   display: none;
 }
 .btn-log-in{
-  background: rgb(31, 110, 156);
+  background: rgb(12, 92, 141);
   border: none;
+  transition: all 0.5s;
 }
 .btn-log-in:hover{
-  background: rgb(12, 92, 141);
+  background: rgb(9, 70, 105);
+ 
+
 }
 @media(max-width: 1120px){
   .header{
@@ -100,8 +103,6 @@ nav .bx{
       width: 300px;
       background: #131111;
       height: 100vh;
-       /* background-color: #6c757d;
-      background:  #f44336; */
       top: 0;
       right: -370px;
       text-align: center;
@@ -1030,8 +1031,8 @@ float: right;
   color: #fff;
 }
 .more-btn:hover{
-  background: #1f2760;
-  transition: .5s;
+  background: #245596;
+  transition: 0.5s;
   border: none;
 }
 
@@ -1116,7 +1117,7 @@ ul>li:hover {
   font-size: 1.1rem;
   border-radius: 50%;
   padding: .40rem ;
-  margin: 0 var(--mb-1);
+  margin: 3px ;
   transition: .3s;
 }
 .footer-link:hover{
@@ -1136,8 +1137,7 @@ ul>li:hover {
 }
 
 .social>i:hover {
-  /* color: #957bda;
-  cursor: pointer */
+  cursor: pointer 
   background-color: #924f3e;
   color: #fff;
   text-decoration: none;
