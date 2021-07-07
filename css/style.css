@@ -1063,7 +1063,7 @@ float: right;
 }
 ::selection{
   color: #ffffff;
-  background: #2c2a2a;
+  background: #0381f6c7;
 }
 
 /* ================================ Text-Select End============================= */
@@ -1137,7 +1137,7 @@ ul>li:hover {
 }
 
 .social>i:hover {
-  cursor: pointer 
+  cursor: pointer;
   background-color: #924f3e;
   color: #fff;
   text-decoration: none;
