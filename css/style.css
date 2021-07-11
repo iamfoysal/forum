@@ -222,7 +222,6 @@ nav .bx{
 .welcome-maindata{
   text-align: center;
   font-size: 30px;
-  color: #0062cc;
   font-weight: bold;
   animation-duration: 3s;
   animation-name: slidein;
@@ -956,7 +955,6 @@ float: right;
     padding: 6px;
   }
   
-    
   }
 
 
