@@ -634,13 +634,18 @@ width: 100%;
 display: block;
 padding: 8px;
 font-size: 13px;
-border: 1px solid #ccc;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 1px solid #016BA8;
 background: #EAE7E6;
-border-radius: 20px;
+overflow: hidden;
+border-radius: 0px;
 box-sizing: border-box;
 margin-top: 6px;
 margin-bottom: 16px;
 resize: vertical;
+outline: none;
 }
 
 input[type=submit] {
@@ -652,6 +657,7 @@ border: none;
 border-radius: 4px;
 cursor: pointer;
 float: right;
+
 }
 
 input[type=submit]:hover {
